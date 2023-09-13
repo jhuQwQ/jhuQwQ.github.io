@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* 修改此处，使内容垂直对齐到页面的上方 */
+    background-color: #FFF8DC;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Marcellus SC', serif;
+    color: #a81010; /* 设置颜色为 #a81010 */
+}
+
+p {
+    font-family: 'Marcellus SC', serif;
+}
+
+.note-link {
+    color: blue; /* 设置链接颜色为蓝色 */
+    text-decoration: none; /* 移除默认的下划线 */
+}
+
+.note-link:hover {
+    text-decoration: underline; /* 鼠标悬停时添加下划线 */
+}
+
+.center-container {
+    text-align: center;
+    margin-top: 0%; /* 添加上边距，将内容稍微向下推 */
+}
