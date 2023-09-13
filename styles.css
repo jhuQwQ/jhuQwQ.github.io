@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lora', serif; /* 设置正文字体为 Lora */
+    font-size: 20px; /* 设置正文字体大小为 18px */
     height: 100vh;
     margin: 0;
     display: flex;
@@ -18,13 +19,9 @@ h2 {
     color: #a81010; /* 设置颜色为 #a81010 */
 }
 
-p {
-    font-family: 'Marcellus SC', serif;
-}
-
 .note-link {
     color: blue; /* 设置链接颜色为蓝色 */
-    text-decoration: none; /* 移除默认的下划线 */
+    text-decoration: none; /* 默认状态下移除下划线 */
 }
 
 .note-link:hover {
@@ -34,4 +31,18 @@ p {
 .center-container {
     text-align: center;
     margin-top: 0%; /* 添加上边距，将内容稍微向下推 */
+}
+
+.container {
+    max-width: 800px; /* 限制内容的最大宽度 */
+    margin: 0 auto; /* 水平居中内容 */
+    padding: 20px; /* 添加内边距，确保内容不紧贴屏幕边缘 */
+}
+
+h1, h2, p {
+    margin-bottom: 20px; /* 为标题和段落添加底部边距 */
+}
+
+.container p {
+    text-align: justify;
 }
