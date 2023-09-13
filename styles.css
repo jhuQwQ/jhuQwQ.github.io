@@ -1,11 +1,10 @@
 body {
-    font-family: 'Lora', serif; /* 设置正文字体为 Lora */
-    font-size: 20px; /* 设置正文字体大小为 18px */
+    font-family: 'Lora', serif;
     height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* 修改此处，使内容垂直对齐到页面的上方 */
+    align-items: flex-start;
     background-color: #FFF8DC;
 }
 
@@ -16,33 +15,42 @@ h1 {
 
 h2 {
     font-family: 'Marcellus SC', serif;
-    color: #a81010; /* 设置颜色为 #a81010 */
+    color: #a81010;
 }
 
 .note-link {
-    color: blue; /* 设置链接颜色为蓝色 */
-    text-decoration: none; /* 默认状态下移除下划线 */
+    color: blue;
+    text-decoration: none;
 }
 
 .note-link:hover {
-    text-decoration: underline; /* 鼠标悬停时添加下划线 */
+    text-decoration: underline;
 }
 
 .center-container {
     text-align: center;
-    margin-top: 0%; /* 添加上边距，将内容稍微向下推 */
+    margin-top: 0%;
 }
 
 .container {
-    max-width: 800px; /* 限制内容的最大宽度 */
-    margin: 0 auto; /* 水平居中内容 */
-    padding: 20px; /* 添加内边距，确保内容不紧贴屏幕边缘 */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h1, h2, p {
-    margin-bottom: 20px; /* 为标题和段落添加底部边距 */
+    margin-bottom: 20px;
 }
 
 .container p {
     text-align: justify;
+}
+
+p {
+    font-size: 20px;
+}
+
+.textbook {
+    color: grey; /* 设置 "textbook" 为灰色 */
+    cursor: not-allowed; /* 表示该项不可点击 */
 }
